@@ -1,0 +1,102 @@
+.gpt3__footer{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+}
+.gpt3__footer-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.gpt3__footer-head h1{
+    font-family: var(--font-family);
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+text-align: center;
+margin: 3rem 0;
+
+}
+.gpt3__footer-head button{
+    border: 1px solid #fff;
+    background: transparent;
+    font-family: "gilroy";
+    font-family: 800;
+    color: #ffff;
+    padding: 1rem;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+cursor: pointer;
+}
+.gpt3__footer-foot{
+    display: flex;
+    margin-top: 7rem;
+    font-family: var(--font-family);
+    color: #fff;
+   justify-content: space-between;
+}
+.gpt3__footer-foot_content{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gpt3__footer-foot_heading{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.gpt3__footer-foot img{
+    height: 30px;
+    align-self: flex-start;
+
+    margin-bottom: 1rem;
+}
+.gpt3__footer-foot_heading p{
+font-size: 12px;
+line-height: 24px;
+}
+.gpt3__footer-foot_links,
+.gpt3__footer-foot_company,
+.gpt3__footer-foot_touch{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.gpt3__footer-foot_links a,
+.gpt3__footer-foot_company p,
+.gpt3__footer-foot_touch p{
+    font-size: 12px;
+    line-height: 14px;   
+}
+.gpt3__footer-foot h4{
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+
+}
+@media screen and (max-width: 700px) {
+    .gpt3__footer-foot{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .gpt3__footer-foot_heading{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gpt3__footer-foot_heading img{
+        align-self: center;
+    }
+    .gpt3__footer-head h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+}
