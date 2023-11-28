@@ -8,7 +8,7 @@ const Brand = () => {
         <img src={google} alt="" />
       </div>
       <div>
-        <img src={dropbox} alt="" />
+        <img src={dropbox} alt="dropbox" />
       </div>
       <div>
         <img src={slack} alt="" />

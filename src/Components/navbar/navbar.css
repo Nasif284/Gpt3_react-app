@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     padding:2rem 6rem ;
-
 }
 .gpt3__navbar-links{
     flex: 1;
@@ -13,12 +12,10 @@
 }
 .gpt3__navbar-links_logo img{
     width: 62px;
-    height: 16px;
-    
+    height: 16px; 
 }
 .gpt3__navbar-links_logo{
     margin-right: 2rem;
-    
 }
 .gpt3__navbar-links_container{
     display: flex;
